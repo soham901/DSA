@@ -6,23 +6,33 @@ I recently solved the sliding window maximum problem in DSA using Python. Here's
 
 Given an array `nums` and an integer `k`, find the maximum value in each sliding window of size `k` moving from left to right.
 
-## Solution
-
+## Example 1:
 ```python
-nums = [1, 3, -1, -3, 5, 3, 6, 7]
-k = 3
+Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
+Output: [3,3,5,5,6,7]
+Explanation: 
+Window position                Max
+---------------               -----
+[1  3  -1] -3  5  3  6  7       3
+ 1 [3  -1  -3] 5  3  6  7       3
+ 1  3 [-1  -3  5] 3  6  7       5
+ 1  3  -1 [-3  5  3] 6  7       5
+ 1  3  -1  -3 [5  3  6] 7       6
+ 1  3  -1  -3  5 [3  6  7]      7
+```
 
-for a in range(len(nums)):
-    if len(nums[a:a+k]) == k:
-        print(nums[a:a+k], ':', max(nums[a:a+k]))
-    else:
-        break
+## Example 2:
+```python
+Input: nums = [1], k = 1
+Output: [1]
 ```
 
 ## Explanation
 I iterate through the array using a sliding window of size `k`, and for each window, I print the window elements along with the maximum value in that window.
 
 Feel free to use and modify this code as needed. If you find it helpful, don't forget to give a shoutout to [@ezsnippet](https://github.com/nwaliaez) for the question! and me for the solution :P
+
+### [My Solution](/main.py)
 
 ## Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soham-sagathiya-898b6a254/)
