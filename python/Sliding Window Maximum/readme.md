@@ -25,13 +25,9 @@ I iterate through the array using a sliding window of size `k`, and for each win
 Feel free to use and modify this code as needed. If you find it helpful, don't forget to give a shoutout to [@ezsnippet](https://github.com/nwaliaez) for the question! and me for the solution :P
 
 ## Connect with me
-<div style="display: flex; justify-content: center; gap: .8rem;">
-<a href="twitter.com/soham901x"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons@master/icons/round-flat-filled/45px/twitter.png" /></a>
-<a href="https://www.linkedin.com/in/soham-sagathiya-898b6a254/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons@master/icons/round-flat-filled/45px/linkedin.png" /></a>
-<a href="https://discordapp.com/users/789082473639706666"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons@master/icons/round-flat-filled/45px/discord.png" /></a>
-<a href="https://www.instagram.com/soham901ig/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons@master/icons/round-flat-filled/45px/instagram.png" /></a>
-<a href="soham901-portfolio.vercel.app/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons@master/icons/round-flat-filled/45px/website.png" /></a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soham-sagathiya-898b6a254/)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/soham901x)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/users/789082473639706666)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/soham901ig)
 
-
-<b style="display: flex; justify-content: center; margin-top: 2rem;">Thank you for reading!</b>
+Thanks for reading!
