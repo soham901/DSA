@@ -30,7 +30,7 @@ Output: [1]
 ## Explanation
 I iterate through the array using a sliding window of size `k`, and for each window, I print the window elements along with the maximum value in that window.
 
-Feel free to use and modify this code as needed. If you find it helpful, don't forget to give a shoutout to [@ezsnippet](https://github.com/nwaliaez) for the question! and me for the solution :P
+Feel free to use and modify this code as needed. If you find it helpful, solve this and post it, and don't forget to give a shoutout to [@ezsnippet](https://github.com/nwaliaez) for the question, and to me for the solution :P
 
 ### [My Solution](/main.py)
 
