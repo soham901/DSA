@@ -9,7 +9,7 @@ Hi there, I'm Soham! 👋 I'm a passionate full-stack web developer and freelanc
 Welcome to my DSA (Data Structures and Algorithms) problem solutions repository. Here, I've shared my solutions to various DSA problems in different programming languages, including Python.
 
 ### Python Solutions
-- [Sliding Window Maximum](/python/Sliding%20Window%20Maximum/main.py)
+- [Sliding Window Maximum](/python/Sliding%20Window%20Maximum)
 
 <!-- Add more problem solutions here -->
 
