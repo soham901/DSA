@@ -9,6 +9,8 @@ public class Test {
         System.out.println("--------------------------------------------");
         testInsertInOrder();
         System.out.println("--------------------------------------------");
+        testRemove();
+        System.out.println("--------------------------------------------");
         testDisplay();
     }
 
@@ -64,6 +66,38 @@ public class Test {
 
         System.out.println("Test: Display List");
         util.display();
+    }
+
+    // Test case for removing a node
+    public static void testRemove() {
+        Util util = new UtilImpl();
+
+        util.insertAtFirst(10);
+        util.insertAtLast(20);
+        util.insertAtLast(30);
+        util.insertAtLast(40);
+        util.insertAtLast(50);
+
+        // remove a node with value 30
+        util.remove(30);
+        System.out.println("Test: Remove 30");
+        String result = listToString((UtilImpl) util);
+        String expected = "10 -> 20 -> 40 -> 50";
+        assertResult(result, expected);
+
+        // remove first node
+        util.remove(10);
+        System.out.println("Test: Remove 10");
+        result = listToString((UtilImpl) util);
+        expected = "20 -> 40 -> 50";
+        assertResult(result, expected);
+
+        // remove last node
+        util.remove(50);
+        System.out.println("Test: Remove 50");
+        result = listToString((UtilImpl) util);
+        expected = "20 -> 40";
+        assertResult(result, expected);
     }
 
     private static String listToString(UtilImpl util) {

@@ -89,4 +89,30 @@ public class UtilImpl implements Util {
     public Node getFirst() {
         return first;
     }
+
+    @Override
+    public void remove(int val) {
+        // 1. findout the node
+        Node temp = first, pred = null;
+
+        while (temp != null && temp.data != val) {
+            pred = temp;
+            temp = temp.link;
+        }
+
+        // if it's first then
+        if (temp == first) {
+            first = temp.link;
+        }
+
+        // if temp is null then
+        else if (temp == null) {
+            System.out.println("Node not found");
+        }
+
+        // if it's in between
+        else {
+            pred.link = temp.link;
+        }
+    }
 }

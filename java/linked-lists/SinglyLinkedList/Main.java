@@ -15,8 +15,10 @@ public class Main {
             System.out.println("1 to insert at first");
             System.out.println("2 to insert at last");
             System.out.println("3 to insert in order");
-            System.out.println("4 to display the linked list");
-            System.out.println("5 to exit");
+            System.out.println("4 to remove a node");
+            System.out.println("5 to count nodes");
+            System.out.println("6 to display the linked list");
+            System.out.println("7 to exit");
             System.out.print("Enter your choice: ");
 
             choice = sc.nextInt();
@@ -47,10 +49,19 @@ public class Main {
                     break;
 
                 case 4:
-                    util.display();
+                    System.out.print("Enter the value: ");
+                    util.remove(sc.nextInt());
                     break;
 
                 case 5:
+                    // System.out.print("There are total: " + util.countNodes());
+                    break;
+
+                case 6:
+                    util.display();
+                    break;
+
+                case 7:
                     System.out.println("Exiting...");
                     sc.close();
                     return;

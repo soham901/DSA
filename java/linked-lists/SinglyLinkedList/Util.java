@@ -35,4 +35,9 @@ public interface Util {
      * Returns the first node of the list.
      */
     Node getFirst();
+
+    /*
+     * Removes a node of given value from the list.
+     */
+    void remove(int val);
 }
