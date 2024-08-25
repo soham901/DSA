@@ -54,7 +54,7 @@ public class Main {
                     break;
 
                 case 5:
-                    // System.out.print("There are total: " + util.countNodes());
+                    System.out.print("There are total: " + util.countNodes());
                     break;
 
                 case 6:

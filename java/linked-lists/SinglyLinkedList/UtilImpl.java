@@ -115,4 +115,17 @@ public class UtilImpl implements Util {
             pred.link = temp.link;
         }
     }
+
+    @Override
+    public int countNodes() {
+        Node temp = first;
+        int count = 0;
+
+        while (temp != null) {
+            temp = temp.link;
+            count++;
+        }
+
+        return count;
+    }
 }

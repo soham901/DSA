@@ -11,6 +11,8 @@ public class Test {
         System.out.println("--------------------------------------------");
         testRemove();
         System.out.println("--------------------------------------------");
+        testCountNodes();
+        System.out.println("--------------------------------------------");
         testDisplay();
     }
 
@@ -98,6 +100,26 @@ public class Test {
         result = listToString((UtilImpl) util);
         expected = "20 -> 40";
         assertResult(result, expected);
+    }
+
+    // Test case for counting the number of nodes
+    public static void testCountNodes() {
+        Util util = new UtilImpl();
+
+        util.insertAtFirst(10);
+        util.insertAtLast(20);
+        util.insertAtLast(30);
+
+        System.out.println("Test: Count Nodes");
+        int result = util.countNodes();
+        int expected = 3;
+        assertResult(String.valueOf(result), String.valueOf(expected));
+
+        // count empty list
+        util = new UtilImpl();
+        result = util.countNodes();
+        expected = 0;
+        assertResult(String.valueOf(result), String.valueOf(expected));
     }
 
     private static String listToString(UtilImpl util) {

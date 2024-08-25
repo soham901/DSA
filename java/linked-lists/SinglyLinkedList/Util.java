@@ -40,4 +40,9 @@ public interface Util {
      * Removes a node of given value from the list.
      */
     void remove(int val);
+
+    /*
+     * Returns the number of total nodes in the list.
+     */
+    int countNodes();
 }
